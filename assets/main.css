@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 20px 18px;
+}
+
+.heading {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.paragraph {
+  text-align: center;
+  width: 370px;
+  margin: 20px auto 40px;
+}
+
+.call-to-action {
+  background-color: rgb(125, 65, 125);
+  color: white;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+.call-to-action > p {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-wrapper {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-wrapper > form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.form-wrapper input {
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-wrapper button {
+  background-color: aquamarine;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 14px;
+}
+
+.form-wrapper small {
+  text-align: center;
+  display: inline-block;
+}
+
+@media screen and (condition) {
+  /* CSS Rules */
+}
