@@ -7,17 +7,20 @@
 
 .container {
   padding: 20px 18px;
+  background: hsl(0, 100%, 74%) url("./images/bg-intro-mobile.png") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .heading {
   text-align: center;
-  width: 300px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
 .paragraph {
   text-align: center;
-  width: 370px;
+  max-width: 370px;
   margin: 20px auto 40px;
 }
 
@@ -67,6 +70,27 @@
   display: inline-block;
 }
 
-@media screen and (condition) {
-  /* CSS Rules */
+@media (width >= 1024px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    background: hsl(0, 100%, 74%) url("./images/bg-intro-desktop.png") no-repeat;
+    background-size: cover;
+  }
+
+  .heading {
+    text-align: left;
+    max-width: 500px;
+    font-size: 40px;
+    margin: unset;
+    margin-bottom: 10px;
+  }
+
+  .paragraph {
+    text-align: left;
+    max-width: 500px;
+    margin: 0;
+  }
 }
